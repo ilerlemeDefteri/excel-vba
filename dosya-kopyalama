@@ -1,3 +1,4 @@
+'Kodun çalışma mantığını ve nerelerde kullanabileceğinize dair örnekleri https://www.ilerlemedefteri.net/2025/06/excel-vba-ile-dosya-kopyalama-nasil-yapilir.html adresinde bulabilirsiniz.
 Sub Kopyala()
     Dim FSO As New FileSystemObject
     Dim KaynakKlasor As String
