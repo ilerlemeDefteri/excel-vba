@@ -4,14 +4,10 @@ Sub Kopyala()
     Dim KaynakKlasor As String
     Dim KopyalanacakKlasor As String
     Dim KaynakKlasordekiDosya As Object
-
     KaynakKlasor = "C:\Users\user1\Desktop\hisseseneditarama\tablolar\"
     KopyalanacakKlasor = "C:\Users\user1\Desktop\hisseseneditarama\table\"
-   
     Set FSO = CreateObject("Scripting.FileSystemObject")
-
     For Each KaynakKlasordekiDosya In FSO.GetFolder(KaynakKlasor).Files
          KaynakKlasordekiDosya.Copy KopyalanacakKlasor
     Next KaynakKlasordekiDosya
-
 End Sub
