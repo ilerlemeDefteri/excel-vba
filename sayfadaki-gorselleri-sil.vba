@@ -1,3 +1,4 @@
+'Kodun nasıl çalıştığını ve anlatımını https://www.ilerlemedefteri.net/2025/07/excel-vba-ile-sayfadaki-gorselleri-silin.html adresinde bulabilirsiniz.
 Sub gorselleriSil()
   ActiveSheet.Pictures.Delete
 End Sub
